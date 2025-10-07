@@ -2,8 +2,6 @@
 #include <stdio.h>
 int main()
 {
-    anshi:
-    char ch;
     int num1, num2, lcm, i;
     printf("Enter two numbers: ");
     scanf("%d %d", &num1, &num2);
@@ -23,17 +21,5 @@ int main()
       printf("LCM of %d and %d = %d\n", num1, num2, lcm);
         }
     }
-     getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
     return 0;
 }

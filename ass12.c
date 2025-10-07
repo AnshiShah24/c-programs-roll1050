@@ -3,8 +3,6 @@
 #include<stdio.h>
 void main()
 {
-  anshi:
-  char ch;
   int a[100];
   int i,pos,value,n;
   printf("\n Enter size of array:");
@@ -28,16 +26,4 @@ void main()
   {
    printf("%d ",a[i]); 
   }
-   getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
 }

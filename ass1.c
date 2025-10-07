@@ -2,20 +2,20 @@
 #include <stdio.h>
 int main()
 {
-    anshi:
+    start:
     char ch;
-    float side, perimeter;
+    int side, perimeter;
     printf("Enter any side of the square: ");
-    scanf("%f", &side);
+    scanf("%d", &side);
     perimeter = 4 * side;
-    printf("The perimeter of the square is: %f\n", perimeter);
+    printf("The perimeter of the square is: %d \n", perimeter);
     getchar();
     printf("\n Do you want to continue?");
     scanf("%c",&ch);
   
    if(ch=='y')
     {
-      goto anshi;
+      goto start;
    }
    else
     {

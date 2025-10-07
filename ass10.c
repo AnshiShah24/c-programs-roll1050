@@ -2,8 +2,6 @@
 #include <stdio.h>
 int main()
 {
-    anshi:
-    char ch;
     int n,i;
     printf("Enter a positive number: ");
     scanf("%d", &n);
@@ -13,18 +11,6 @@ int main()
     {
         printf("%d ", i);
     }
-     getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
     printf("\n");
     return 0;
 }

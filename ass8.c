@@ -1,4 +1,4 @@
-// write a program to count constants in a string
+// write a program to count consonants in a string
 #include <stdio.h>
 int main() 
 {

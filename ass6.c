@@ -2,8 +2,6 @@
 #include<stdio.h>
 int main()
 {
-  anshi:
-  char ch;
   int a, b, c, d, smallest;
   printf("Enter four numbers: ");
   scanf(" %d %d %d %d", &a, &b, &c, &d);
@@ -26,17 +24,5 @@ int main()
     }
 
     printf("The smallest number is: %d\n", smallest);
-     getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
-return 0;
+  return 0;
 }

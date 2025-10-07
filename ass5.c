@@ -2,8 +2,6 @@
 #include <stdio.h>
 int main() 
 {
-    anshi:
-    char ch;
     int n, i, sum = 0;
     
     printf("Enter the number of elements in the array: ");
@@ -25,18 +23,6 @@ int main()
     }
 
     printf("Sum of even elements = %d\n", sum);
-     getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
     return 0;
 }
 

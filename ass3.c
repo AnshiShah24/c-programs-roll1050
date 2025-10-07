@@ -2,8 +2,6 @@
 #include <stdio.h>
 int main() 
 {
-    anshi:
-    char ch;
     int arr[50], n, i, largest;
     printf("Enter the number of elements in the array: ");
     scanf("%d", &n);
@@ -22,17 +20,5 @@ int main()
         }
     }
     printf("The largest element in the array is: %d\n", largest);
-    getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
     return 0;
 }

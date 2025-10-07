@@ -2,8 +2,6 @@
 #include<stdio.h>
 void main()
 {
-   anshi:
-   char ch;
    int n,i,a=0;
    printf("Enter any number:");
    scanf("%d",&n);
@@ -14,29 +12,15 @@ void main()
       {
          a++;
       } 
-   
    }
+   
     if(a==2)
     {
       printf("%d is a prime number.",n);
-     
     }
    
    else
    {
        printf("%d is not a prime number.",n);
    }
-   getchar();
-   printf("\n Do you want to continue?");
-   scanf("%c",&ch);
-   
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-    {
-      printf("\n THANK YOU!");
-    }
-   
 }

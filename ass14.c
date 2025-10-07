@@ -2,8 +2,6 @@
 #include<stdio.h>
 int main()
 {
-  anshi:
-  char ch;
   int a, b, c, d, e, largest;
   printf("Enter five numbers: ");
   scanf(" %d %d %d %d %d", &a, &b, &c, &d, &e);
@@ -30,17 +28,5 @@ int main()
     }
 
     printf("The largest number is: %d\n", largest);
-     getchar();
-    printf("\n Do you want to continue?");
-    scanf("%c",&ch);
-  
-    if(ch=='y')
-    {
-      goto anshi;
-    }
-    else
-   {
-     printf("\n THANK YOU");
-   }
 return 0;
 }
